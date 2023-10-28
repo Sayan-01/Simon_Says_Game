@@ -73,7 +73,7 @@ function checkAns(idx) {
         }
         console.log('same seq');
     } else {
-        h2.innerText = 'Game over! press key to start';
+        h2.innerHTML = `Game over! your score ${level}<br> press key to start`;
         reset();
     }
 }
